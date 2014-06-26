@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>BGJUG WebPage</title>
+    <style>
+        header h1{
+            margin-left: 60px;
+        }
+        header nav ul {
+            font-family: Arial, Verdana;
+            font-size: 20px;
+            margin-top: 40px;
+            margin-bottom: 0px;
+            margin-left: 50px;
+            padding: 0;
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            position: relative;
+
+        }
+        header nav ul li a {
+            display: block;
+            text-decoration: none;
+            color: gray;
+            width:150px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        header nav ul li input#txtfind{
+            margin-left: 230px;
+            background-color: lightsteelblue;
+        }
+        header hr{
+            margin-left: 30px;
+            margin-right: 30px;
+            border: 1px solid;
+            border-color: lightgrey;
+            margin-top: 1px;
+        }
+        <!-- -->
+        article {
+            float: left;
+        }
+        article#asideleft nav ul {
+            margin-top: 5px ;
+            margin-left: 30px;
+            padding: 0;
+            list-style: none;
+        }
+
+        article#asideleft  nav ul li a {
+            display: block;
+            text-decoration: none;
+            color: lightskyblue;
+            width:150px;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 10px;
+
+        }
+        article#asideleft hr{
+            margin-top: 40px;
+            margin-left: 30px;
+            border: 1px solid;
+            border-color: lightgrey;
+
+        }
+        article#main{
+            width: 69%;
+        }
+        article#main h1{
+            margin-left: 10px;
+            margin-bottom: 0px;
+        }
+        article#main h3{
+            color: grey;
+            font-size: 11px;
+        }
+
+
+        article#main div {
+            width: 500px;
+            margin-left: 10px;
+
+        }
+        article#main div p{
+            margin-left: 0px;
+            margin-top: 30px ;
+            font-size: 15px;
+         }
+        article#main div p a{
+            color: lightskyblue;
+            font-weight: bold;
+        }
+        article#main div a{
+            color: lightskyblue;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        article#main header p{
+            margin-top: 10px ;
+            margin-bottom: 30px;
+        }
+        article#asideRight h5{
+            color: gray;
+        }
+        article#asideRight section option {
+            color: gray;
+        }
+
+    </style>
+</head>
+<body   style="margin-left: 250px;margin-top: 150px;width: 50%">
+
+        <header>
+                <h1>BGJUG – Bulgarian Java User Group</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#" >ABOUT</a></li>
+                        <li><a href="#" >EVENTS</a></li>
+                        <li><a href="#" >CONTACTS</a></li>
+                        <li>
+                            <input type="search" name="find" placeholder="Search" id="txtfind">
+                            <input type="image" src="images/search-btn.png" alt="find">
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
+        </header>
+        <section>
+            <article id="asideleft">
+                <hr>
+                <aside >
+                   <nav>
+                    <ul>
+                        <li><a href="#" >An Architecture for E-Voting</a></li>
+                        <li><a href="#" >Integration Tests for External Services</a></li>
+                        <li><a href="#" >Algorithmic Music Influenced by Tweets</a></li>
+                        <li><a href="#" >The Low Quality of Scientific Code</a></li>
+                    </ul>
+                   </nav>
+                </aside>
+            </article>
+            <article id="main">
+
+                <div>
+                    <h2>"Семинар “Eclipse plug-in development”</h2>
+                    <h3>by NVASILEV on МАРТ 21, 2013 · LEAVE A COMMENT</h3>
+                    Днес, 21.03.2013 г, ще се проведе семинар на тема “Eclipse plug-in development” пред българската<wbr>
+                    Java потребителска група (BG-JUG). Семинарът ще бъде в зала 299 на ФМИ с начало 19:00 ч.<wbr>
+                    Повече за семинара На семинара ще бъдат разгледани следните въпроси: Кратка история и развитие на платформата <wbr>
+                    Eclipse OSGi и реализация в Eclipse Архитектура и основни компоненти на <a href="http://tech.nvasilev.com/2013/03/21/seminar-eclipse-plug-in-development/" >[...]</a>
+                    <p><a href="http://tech.nvasilev.com/2013/03/21/seminar-eclipse-plug-in-development/" >Continue Reading →</a></p>
+                </div>
+                <div>
+                    <h2>"Семинар “Eclipse plug-in development”</h2>
+                    <h3>by ADMIN on ЮЛИ 28, 2011 · 3 COMMENTS</h3>
+                    Добре дошли в новия сайт на Българската Java потребителска група! <a href="http://tech.nvasilev.com/2013/03/21/seminar-eclipse-plug-in-development/" >[...]</a>
+                    <p><a href="http://tech.nvasilev.com/2013/03/21/seminar-eclipse-plug-in-development/" >Continue Reading →</a></p>
+                </div>
+                <div>
+                    <h2>BDD with JBehave</h2>
+                    <h3>by NIKOLAY VASILEV'S TECHNICAL BLOG » JAVA on ЮЛИ 15, 2011 · LEAVE A COMMENT</h3>
+                     A month ago I gave a talk on Bulgarian Java User Group. The topic was “BDD with JBehave and Selenium”,<wbr>
+                     introducing Behaviour Driven Development concept, JBehave basics and finally presenting an example of how JBehave<wbr>
+                     could be integrated with Selenium. The slides could be found on my Slideshare account:<wbr>
+                     BDD with JBehave and Selenium View <a href="http://tech.nvasilev.com/2013/03/21/seminar-eclipse-plug-in-development/" >[...]</a>
+                    <p><a href="http://tech.nvasilev.com/2013/03/21/seminar-eclipse-plug-in-development/" >Continue Reading →</a></p>
+                </div>
+            </article>
+            <article id="asideRight">
+                <h5>LANGUAGE</h5>
+                <hr>
+                <select>
+                    <option>Bulgarian</option>
+                    <option>English</option>
+                </select>
+                <h5>BLOGROLL</h5>
+                <hr>
+            </article>
+
+        </section>
+</body>
+</html>
