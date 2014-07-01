@@ -1,0 +1,160 @@
+.div-main{
+    background-color: #00923E;
+    width: 1050px;
+    margin: 200px;
+    position: absolute;
+}
+table{
+    width: 1030px;
+    margin: 10px;
+    font-family: Arial, Verdana;
+}
+td,th,tr{
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+}
+th{
+    background-color:#F8C711;
+    font-size: 20px;
+}
+tr{
+    font-size: 14px;
+}
+.td-width{
+    width: 120px;
+}
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+tbody tr:nth-child(even){
+    background-color:lightgrey;
+}
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+th:first-child{
+    text-align: right;
+    border-top-left-radius: 10px;
+}
+th:last-child{
+    border-top-right-radius: 10px;
+}
+td:first-child,td:nth-child(5){
+    text-align: right;
+    padding-left: 10px;
+}
+td:nth-child(3),td:nth-child(7){
+    text-align: left;
+}
+td:nth-child(1),td:nth-child(3),td:nth-child(5),td:nth-child(6),td:nth-child(7){
+    width: 115px;
+}
+td:nth-child(2),td:nth-child(4){
+    width: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td:nth-child(8){
+    width: 40px;
+}
+#contryAway{
+    text-align: left;
+}
+#divBrasil{
+    background: url(../images/brazil.png) no-repeat 115px 1px;
+    padding-right: 25px;
+}
+#divSpain{
+    background: url(../images/spain.png) no-repeat 115px 1px;
+    padding-right: 25px;
+}
+#divItaly{
+    background: url(../images/italy.png) no-repeat 115px 1px;
+    padding-right: 25px;
+}
+#divArgentina{
+    background: url(../images/argentina.png) no-repeat 115px 1px;
+    padding-right: 25px;
+}
+#divGermany{
+    background: url(../images/germany.png) no-repeat 115px 1px;
+    padding-right: 25px;
+}
+/*right*/
+#divMexico{
+    background: url(../images/mexico.png) no-repeat 0px 1px;
+    padding-left: 25px;
+}
+#divHolland{
+    background: url(../images/netherlands.png) no-repeat 0px 1px;
+    padding-left: 25px;
+}
+#divEngland{
+    background: url(../images/england.png) no-repeat 0px 1px;
+    padding-left: 25px;
+}
+#divArg{
+    background: url(../images/argentina.png) no-repeat 115px 1px;
+    padding-right: 25px;
+}
+#divBIH{
+    background: url(../images/bosnia.png) no-repeat 0px 1px;
+    padding-left: 25px;
+}
+#divGer{
+    background: url(../images/germany.png) no-repeat 115px 1px;
+    padding-right: 25px;
+}
+#divPort{
+    background: url(../images/portugal.png) no-repeat 0px 1px;
+    padding-left: 25px;
+}
+select{
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+.select-disable{
+    color: red;
+    background-color: lightgrey;
+    width: 40px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.select-enable{
+    color: green;
+    background-color: white;
+    width: 40px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.div-bit-left{
+  padding-left: 30px;
+}
+.div-selects{
+    padding-left: 10px;
+}
+.btnRed{
+    background:url(../images/bet-red-60x40.png) no-repeat -5px 5px;
+    margin: 0;
+    padding:0;
+    border: none;
+    width:50px;
+    height:50px;
+    cursor: pointer;
+}
+.btnGreen{
+    background:url(../images/bet-green-60x40.png) no-repeat -5px 5px;
+    margin: 0;
+    padding:0;
+    border: none;
+    width:50px;
+    height:50px;
+    cursor: pointer;
+}
