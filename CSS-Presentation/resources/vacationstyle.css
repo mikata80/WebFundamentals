@@ -1,0 +1,50 @@
+div{
+    width: 50%;
+    height: 600px;
+
+    background:  url("VladoGHula.png")
+               ,url('PetiaHula.png')
+               ,url(NakovHula.png)
+               ,url(AlexHula.png)
+               ,url(VladoKHula.png)
+               ,url(TediHula.png)
+               ,url("HawaiiBackground.png")
+               ,url("right-side.png")
+               ,radial-gradient(ellipse at left, #f2f4de 1%,#f2f4de 5%,#f2f4de 5%,#f2f4de 11%,#f2f4de 14%,#207ce5 40%);
+    background-position: 5%  90%
+                        ,25% 85%
+                        ,60% 90%
+                        ,70% 97%
+                        ,95% 90%
+                        ,40% 99%
+
+                        ,0% 0%
+                        ,0% 100%
+                        ,0% 0%;
+
+    background-repeat:   no-repeat
+                       , no-repeat
+                       , no-repeat
+                       , no-repeat
+                       , no-repeat
+                       , no-repeat
+
+                       , no-repeat
+                       , repeat-x
+                       , no-repeat;
+
+}
+@font-face {
+    font-family: Animated;
+    src: url('Animated.ttf');
+}
+span{
+    font-family: Animated;
+    font-size: 50px;
+    color: orange;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    padding-left:630px;
+    padding-top: 40px;
+}

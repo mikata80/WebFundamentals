@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Styling a HTML Form</title>
+    <link rel="stylesheet" type="text/css" href="resources/stylingform.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Step 1: Your details</legend>
+            <div class="div-inputs">
+                <label for="inputtxtName">Name</label>
+                <input type="text" id="inputtxtName" placeholder="First and last Name">
+            </div>
+            <div class="div-inputs">
+                <label for="inputEmail">Email</label>
+                <input type="email" id="inputEmail" placeholder="example@domain.com">
+            </div>
+            <div class="div-inputs">
+                <label for="inputPhone">Phone</label>
+                <input type="tel" id="inputPhone" placeholder="eg.+4475000000000 ">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 2: Delivery Address</legend>
+            <div id="txtarea">
+                <label for="txtareaAddres" row="3">Address</label>
+                <textarea id="txtareaAddres"></textarea>
+            </div>
+            <div class="div-inputs">
+                <label for="inputtxtPostCode">Post code</label>
+                <input type="text" id="inputtxtPostCode">
+            </div>
+            <div class="div-inputs">
+                <label for="inputCountry">Country</label>
+                <input type="text" id="inputCountry">
+             </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 3: Card details</legend>
+            <div class="div-inputs div-cards">
+                <span>Card type</span>
+                <div class="div-radio">
+                    <label for="r-visa" class="label-radio">Visa</label>
+                    <div id="div-visa">
+                        <input type="radio" id="r-visa" name="card">
+                    </div>
+                </div>
+                <div class="div-radio">
+                    <label for="r-amex" class="label-radio">AmEx</label>
+                    <div id="div-amex">
+                        <input type="radio" id="r-amex" name="card">
+                    </div>
+                </div>
+                <div class="div-radio">
+                    <label for="r-mastc" class="label-radio">MasterCard</label>
+                    <div id="div-mastc">
+                        <input type="radio" id="r-mastc" name="card">
+                    </div>
+                </div>
+            </div>
+            <div class="div-inputs">
+                <label for="inputtxtCardNum">Card Number</label>
+                <input type="text" id="inputtxtCardNum" >
+            </div>
+            <div class="div-inputs">
+                <label for="inputSecCode">Security Code</label>
+                <input type="text" id="inputSecCode" placeholder="example@domain.com">
+            </div>
+            <div class="div-inputs">
+                <label for="inputCardName">Card Name</label>
+                <input type="text" id="inputCardName" placeholder="exact name as on a card ">
+            </div>
+        </fieldset>
+        <div id="div-button">
+            <button>buy it!</button>
+        </div>
+
+    </form>
+</body>
+</html>

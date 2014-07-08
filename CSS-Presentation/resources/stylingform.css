@@ -1,0 +1,115 @@
+body{
+
+
+}
+form{
+    background:transparent  url("formBackground.jpg");
+    background-position: 100% 50%;
+    width: 570px;
+    margin-left: 25%;
+    border-radius:20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Arial;
+}
+fieldset{
+    border: 0;
+    margin-bottom: 10px;
+
+}
+    fieldset legend{
+        font-size: 20px;
+        font-family: Consolas;
+        font-weight: bold;
+        color: white;
+    }
+    fieldset label{
+        display: block;
+        float: left;
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    fieldset input[type="text"],[type="email"],[type="tel"]{
+        width: 250px;
+        height: 25px;
+        border-radius: 3px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding-left: 5px;
+    }
+    fieldset textarea{
+        width: 250px;
+        height: 90px;
+        border-radius: 3px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding-left: 5px;
+}
+
+.div-inputs{
+    width: 526px;
+    height: 50px;
+    background: rgba(136, 168, 200, 0.4);
+    border: 1px solid rgba(225,255,255,0.5);
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+#txtarea{
+    width: 526px;
+    height: 120px;
+    background: rgba(136, 168, 200, 0.4);
+    border: 1px solid rgba(225,255,255,0.5);
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.div-radio{
+    width: 30.00%;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.div-cards{
+    height: 75px;
+}
+span{
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.label-radio{
+    float: right;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+ #div-visa {
+     background: url("visa.svg") 18px 1px no-repeat;
+     background-size: 20%;
+     margin-left: 4px;
+ }
+#div-amex{
+    background: url("amex.svg") 18px 1px no-repeat;
+    background-size: 20%;
+    margin-left: 4px;
+}
+#div-mastc{
+    background: url("masterc.svg") 18px 1px no-repeat;
+    background-size: 20%;
+    margin-left: 4px;
+}
+#div-button{
+    margin-left: 230px;
+    padding-bottom: 25px;
+}
+#div-button button{
+    background-color: darkblue;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    padding: 13px;
+}
+

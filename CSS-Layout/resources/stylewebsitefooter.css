@@ -1,0 +1,107 @@
+body{
+    width: 1050px;
+    margin:0 auto;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: white;
+    font-family:Tahoma, sans-serif;
+    font-weight: bold;
+}
+#wrapper{
+    background-color: #234465;
+    float: left;
+}
+#wrapper section{
+    display: block;
+    float: left;
+    width: 170px;
+    margin-top: 20px;
+
+}
+
+#wrapper section form input[type="button"]{
+    display: block;
+    float: left;
+    border: 1px solid #FF9C00;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+    width: 115px;
+    margin-left: 40px;
+   }
+    #wrapper section button a{
+        text-decoration: none;
+    }
+
+ #wrapper section h5{
+     margin-top: 0px;
+     margin-bottom: 5px;
+     text-transform: uppercase;
+     color: #FF9C00;
+ }
+ #wrapper section ul{
+     display: block;
+     padding: 0;
+     margin: 0;
+ }
+    #wrapper section ul    li{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+        #wrapper section ul li div{
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        #wrapper section ul li div a img {
+            height: 25px;
+            width: 25px;
+            border: 0;
+            background-repeat: no-repeat;
+            margin-top: 10px;
+
+        }
+        #wrapper section ul li div a  #twit {
+             background-image: url("twitter.png");
+
+         }
+        #wrapper section ul li div a  #face {
+            background-image: url("facebook.png");
+        }
+        #wrapper section ul li div a #gplus {
+            background-image: url("googleplus.png");
+        }
+        #wrapper section ul li a{
+            text-decoration: none;
+            padding: 5px;
+            margin: 0;
+        }
+
+        #wrapper section ul li a:link,a:visited{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: normal;
+        }
+
+
+
+   iframe{
+       float: left;
+       border: none;
+       overflow: hidden;
+       height: 200px;
+       background-color: whitesmoke;
+       margin-top: 20px;
+       margin-left: 20px;
+       width: 250px;
+       padding-bottom: 10px;
+       margin-right: 10px;
+       margin-bottom: 10px;
+
+   }

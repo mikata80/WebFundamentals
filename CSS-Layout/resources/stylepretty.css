@@ -1,0 +1,205 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #101415;
+    font-family: Arial;
+}
+
+#wrapper{
+    width: 900px;
+    float: left;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+    #wrapper header h1{
+        float: right;
+        margin: 200px 40px 0 0px;
+        padding: 0;
+        color: white;
+    }
+    #wrapper header #logo{
+        background: url("headerBackground.jpg") no-repeat 0px 0px;
+        background-size: 900px 270px;
+        width: 900px;
+        height: 270px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #wrapper nav{
+        float: left;
+        background-color: #E8E8E8;
+        width: 900px;
+        padding-bottom: 2px;
+    }
+    #wrapper nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    #wrapper nav ul li{
+        float: left;
+        display: list-item;
+        list-style-type: none;
+        border: 1px solid #F5F5F5;
+        width: 85px;
+        height: 15px;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+
+    }
+    #wrapper nav ul li:hover{
+    background-color: #B9B9B9;
+    color: #F6FEFF;
+}
+    #wrapper nav ul li a{
+        color: #4C4D4F;
+        text-decoration: none;
+    }
+    #wrapper nav ul li a:hover{
+        color: white;
+    }
+     #wrapper nav ul li a:focus{
+         color: white;
+     }
+
+    #wrapper #left-side{
+        float: left;
+        width: 400px;
+        margin-left: 20px;
+
+    }
+    #wrapper #right-side{
+        float: right;
+        margin: 20px 60px 8px 10px;
+        width: 220px;
+
+        /*padding: 0px 10px 0px 10px;*/
+    }
+
+    #wrapper #left-side section{
+        float: left;
+        border: 1px solid #E5E5E5;
+        border-radius: 15px;
+        margin: 20px 35px 10px 35px ;
+        padding: 10px;
+        width: 500px;
+    }
+
+    #wrapper #left-side  section article header h1,h3{
+        float: left;
+        text-transform: uppercase;
+        color: #85BE1B;
+        margin: 0;
+        padding: 10px;
+    }
+    #wrapper #left-side  section article header p{
+        float: left;
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+    #wrapper #left-side  section article header p:first-line{
+     font-weight: bold;
+    }
+
+    /*#wrapper section article:after{*/
+        /*clear: both;*/
+    /*}*/
+
+     #wrapper #left-side  section article div{
+        float: left;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #wrapper #left-side section article #div-one{
+        background: url("0005.jpg") no-repeat;
+        margin: 0px 10px 10px 10px;
+        height: 154px;
+        width: 125px;
+        float: left;
+    }
+
+    #wrapper #left-side section article #div-two{
+        background: url("0004.jpg") no-repeat;
+        margin: 0px 10px 10px 10px;
+        height: 154px;
+        width: 125px;
+        float: left;
+    }
+
+    #wrapper #left-side section article #div-three{
+        background: url("0003.jpg") no-repeat;
+        margin: 0px 10px 10px 10px;
+        height: 154px;
+        width: 125px;
+        float: left;
+    }
+    #wrapper #left-side section article div h5{
+        float: left;
+        margin: 0 ;
+    }
+    #wrapper section article div h5:first-letter{
+        text-transform: uppercase;
+    }
+    #wrapper #left-side section article div  p{
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    /*ASIDE*/
+    #wrapper #right-side #news{
+        background-color: #EEEEEE;
+        border-radius: 15px;
+    }
+    #wrapper #right-side aside section{
+        border: 1px solid #E5E5E5;
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    #wrapper #right-side aside h1{
+        float: left;
+        text-transform: uppercase;
+        color: #85BE1B;
+        margin: 10px 120px 23px 2px;
+        padding: 0;
+    }
+    #wrapper #right-side aside h5{
+        margin: 0;
+        padding-left: 5px;
+    }
+    #wrapper #right-side aside h6{
+        margin-bottom: 5px;
+        padding-left: 5px;
+    }
+    #wrapper #right-side aside p{
+        text-transform: capitalize;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /*#wrapper footer{*/
+        /*float: left;*/
+        /*border: 1px solid red;*/
+    /*}*/
+
+    /*#wrapper #right-side footer{*/
+        /*width: 1050px;*/
+    /*}*/
+
+    .clearfix:after{
+        content: " ";
+        clear: both;
+    }

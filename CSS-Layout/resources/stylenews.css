@@ -1,0 +1,130 @@
+body{
+    width: 1050px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#wrapper{
+    width:1050px;
+    background-color: #EEEEEE;
+    border: 0;
+    margin: 50px 0 0 0 ;
+    float: left;
+    padding: 10px;
+}
+    #wrapper>h3{
+
+        text-transform: capitalize;
+        color: #3670AB;
+       margin: 20px;
+
+    }
+    #wrapper section article {
+        background-color: #FFFFFF;
+        float: left;
+        border: 1px solid #E5E5E5;
+        box-shadow: 5px 5px 5px #E1E1E1;
+        margin: 0px 0px 20px 20px;
+        padding: 10px 30px 10px 30px;
+        width: 260px
+    }
+
+        #wrapper section article header h5{
+                    height: 40px;
+                    text-transform: uppercase;
+                    color: #3670AB;
+                    font-weight: bold;
+                    text-align: left;
+                    margin: 15px 0px 0px 0px;
+                    padding: 0px 0px 0px 7px;
+                }
+
+        #wrapper section article header time{
+            color: #3E4452;
+            font-size: 14px;
+            float: right;
+            margin-right: 10px;
+
+        }
+
+        #wrapper section article header p{
+            text-transform: capitalize;
+            color: #B1A89C;
+            font-size: 13px;
+            float: left;
+            margin: 0;
+            padding: 0 0 10px 0;
+        }
+
+    #wrapper section article header p{
+        clear: both;
+    }
+
+    .contend{
+        float: left;
+        border:0;
+        border-color: transparent;
+    }
+        .contend hr{
+            width: 260px;
+            color: #3E4452;
+            opacity: .3;
+        }
+
+        .contend figure{
+            border: 0;
+            border-color: transparent;
+            margin: 0;
+            padding: 0;
+        }
+            .contend figure img{
+                width: 260px;
+                height: 100px;
+            }
+
+            .contend figure figcaption{
+                height: 20px;
+                font-size: 14px;
+                padding: 15px 0 15px 0;
+                text-overflow:ellipsis;
+                color: #B1A89C;
+            }
+
+
+    #wrapper footer{
+        float: left;
+}
+    #wrapper footer p{
+        height: 20px;
+        font-size: 12px;
+        color: #B1A89C;
+        padding: 0 0 10px 0;
+    }
+        #wrapper footer p strong{
+            text-transform: capitalize;
+            font-weight: bold;
+
+        }
+
+    #wrapper section ul{
+        list-style-type: none;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+    }
+
+        #wrapper section ul li{
+            float: left;
+            border: 1px solid white;
+            border-right: 0;
+            width: 10px;
+            height: 10px;
+            margin: 0;
+            padding: 5px 10px 15px 10px;
+            background-color: #4CA0DB;
+            color: white;
+        }
+
+        #wrapper section ul li:hover{
+            background-color: #FF9C00;
+        }
