@@ -1,0 +1,193 @@
+body{
+    font-family: Georgia;
+    font-size: 12px;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+/*margin: 10px;*/
+    
+
+}
+@font-face {
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Patua One'), local('PatuaOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/patuaone/v4/yAXhog6uK3bd3OwBILv_SD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+main{
+    width: 940px;
+}
+main header{
+    width: 584px;
+    padding: 10px 0 0 250px;
+}
+    main header #logo{
+        float: left;
+        background: url("site-logo.png") no-repeat 16px 3px ;
+        background-size: 70%;
+        width: 48px;
+        height: 48px;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    main header #headers{
+        float: left;
+        margin: 0 auto;
+        padding: 0;
+    }
+    main header h1 {
+        font-family:"Patua One";
+        font-size: 45px;
+        text-align: center;
+        text-transform: capitalize;
+        /*padding: 0;*/
+        margin-bottom: 1px;
+
+    }
+    main header h1:hover {
+        color: #777777;
+        cursor: pointer;
+    }
+    .clear-fix{
+        clear: both;
+        content: "";
+    }
+    main #headers h4{
+        /*width: 584px;*/
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+        font-family:georgia;
+        font-style: italic;
+        font-size: 12px;
+
+    }
+
+    main header nav{
+        float: left;
+    }
+        main header nav ul{
+            border-top: 1px dashed lightgrey;
+            border-bottom: 1px dashed lightgrey;
+            list-style-type: none;
+
+
+        }
+            main header nav ul li{
+                display: inline-block;
+                margin: 10px;
+
+            }
+            main header nav ul li a{
+                text-decoration: none;
+                text-transform: capitalize;
+                text-align: center;
+                color: #999999;
+            }
+            main header nav ul li a:hover{
+                color: #666666;
+            }
+            main header nav ul li:first-child{
+                border-radius: 3px;
+                background-color: #EEEEEE;
+                margin-top: 7px;
+                margin-bottom: 7px;
+                padding: 7px;
+            }
+
+    main #img{
+        float: left;
+        background: url("cover-mountains.jpg");
+        width: 940px;
+        height: 350px;
+    }
+
+    /*main #img:after{*/
+        /*clear: both;*/
+        /*content: "";*/
+    /*}*/
+
+
+    main #left-side{
+        float: left;
+        width: 70%;
+        margin-top: 10px;
+        /*border: 1px solid red;*/
+        padding-right: 10px;
+    }
+     main #left-side h4{
+            text-align: center;
+            border-top: 1px dashed lightgrey;
+            border-bottom: 1px dashed lightgrey;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 90px;
+        }
+        #div-inner-one{
+            text-align: center;
+            margin-left: 60px;
+            padding-left: 10px;
+
+        }
+
+    main #left-side h2{
+        text-align: left;
+    }
+    #div-inner-one{
+        text-align: center;
+        margin-left: 60px;
+        padding-left: 10px;
+
+    }
+
+    #right-side{
+        width: 25%;
+        float: right;
+        /*border: 1px solid blue;*/
+        margin: 10px 10px 0 10px;
+
+    }
+        #right-side form{
+            margin-top: 10px;
+            padding-left: 10px;
+            margin-bottom: 5px;
+        }
+        #right-side h5{
+            font-size: 11px;
+            padding-left: 10px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+
+        }
+        #right-side ul{
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        #right-side ul{
+            padding-bottom: 0;
+        }
+        #right-side ul li a{
+            text-decoration: none;
+            color: dodgerblue;
+        }
+
+        #right-side ul li a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+
+     footer:before{
+         clear: both;
+     }
+    footer{
+        float: right;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+        border-top: 1px solid rgba(128,128,128, .3);
+        background-color: lightgrey;
+        padding: 10px;
+    }

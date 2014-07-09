@@ -1,0 +1,58 @@
+body{
+    font-family: Veranda,Helvetica;
+}
+#wrapper{
+    width: 100%;
+    margin: 10px 20px 10px 0px;
+    /*margin: 10px;*/
+    border: 1px dotted lightgrey;
+}
+#wrapper header h1{
+    font-size: 23px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px dotted lightgrey;
+    background-color: #E9F5FE;
+}
+#wrapper section article header h4{
+    font-size: 15px;
+    padding-left: 10px;
+    margin: 0;
+    color: lightskyblue;
+}
+
+#wrapper section article ul{
+    list-style-type: none;
+}
+
+#wrapper section article ul li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+#wrapper section article ul li:hover{
+    background-color: #D0E0EC;
+    border-radius: 10px;
+
+}
+#wrapper section article ul li a{
+    display: block;
+    float: left;
+    font-size: 14px;
+    text-decoration: none;
+    color: cornflowerblue;
+    text-align: center;
+    text-wrap: normal;
+    padding: 0px 10px 0px 10px;
+}
+#wrapper section article ul li a:hover{
+    color: blue;
+}
+
+.img{
+    display:block;
+    margin: 0 auto;
+    padding: 0px 10px 0px 15px;
+
+}
